@@ -1,0 +1,291 @@
+body{
+	    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      background-color: #f5f5f5;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.nav-item:hover{
+  border-bottom: 2px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+header{
+	background-color: tomato;
+	background-image: url(../images/intro-bg.jpg);
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.layer{
+	height: 100%;
+	background-color: rgba(0,0,0,.6);
+}
+
+.flexCenter h1{
+	font-size: 50px;
+}
+.flexCenter p{
+	font-size: 25px;
+}
+.flexCenter p::after{
+  content: " |";
+  animation-name: typingTitle;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes typingTitle{
+  0%{content: " |";}
+  3%{content: " W|";}
+  6%{content: " We|";}
+  9%{content: " Web|";}
+  12%{content: "  |";}
+  15%{content: " Web D|";}
+  18%{content: " Web De|";}
+  21%{content: " Web Del|";}
+  24%{content: " Web Delo|";}
+  27%{content: " Web Delop|";}
+  30%{content: " Web Delope|";}
+  33%{content: " Web Deloper|";}
+  36%{content: " Web Delope|";}
+  39%{content: " Web Delop|";}
+  42%{content: " Web Delo|";}
+  45%{content: " Web Del|";}
+  48%{content: " Web De|";}
+  61%{content: " Web D|";}
+  54%{content: " |";}
+  67%{content: " Web D|";}
+  70%{content: " Web De|";}
+  73%{content: " Web Des|";}
+  76%{content: " Web Desi|";}
+  80%{content: " Web Desig|";}
+  83%{content: " Web Design|";}
+  86%{content: " Web Desig|";}
+  89%{content: " Web Desi|";}
+  92%{content: " Web Des|";}
+  95%{content: " Web De|";}
+  98%{content: " Web D|";}
+  100%{content: " |";}
+}
+
+/* Start About me */
+
+.about-me{
+  background-color: #fff;
+}
+
+.borderCustom{
+  width: 50px;
+  height: 3px;
+  background-color: #09c;
+}
+.p-borderCustom{
+  width: 60px;
+  height: 3px;
+  background-color: #09c;
+}
+.service-icon{
+  width: 130px;
+  height: 130px;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .7s;
+}
+
+.service-icon:hover{
+  box-shadow: 0 0 0 10px #cfe2f7;
+  background-color: #09c;
+  color: #fff;
+}
+
+
+.service-icon i{
+  font-size: 60px
+}
+
+.card{
+  border-radius: 15px;
+  margin-top: 20px;
+}
+/* End About me */
+
+/* Start counters*/
+#counters{
+  width: 100%;
+  
+  background-image: url(../images/counters-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.counter-item{
+  color: #fff;
+}
+
+.cover-item{
+  background-color: #0078ff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .5;
+}
+
+.counters-icon{
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 0 0 10px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.counters-icon i{
+  font-size: 30px;
+}
+
+.i-custom{
+  font-size: 20px;
+  border: 3px solid #09c;
+  padding: 5px;
+}
+
+/* End counters*/
+
+/* Start portfolio  */
+
+.portfolio-item .card{
+  border-radius: 0;
+  border: 0;
+}
+.card .custom-card-img{
+   
+   overflow: hidden;
+}
+
+.card .custom-card-img img{
+  transition: all 0.6s ease-in-out;
+}
+
+.card-hover:hover img.card-img-top{  
+  transform: scale(1.5);
+}
+
+/* End portfolio */
+
+
+/* Start testimonial */
+#testimonial{
+  height: 600px;
+  background-image: url(../images/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.item {
+    background-color: #0078ff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: content-box;
+    color: #fff;
+}
+.testimonial-opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .7;
+    background-color: #0078ff;
+}
+
+.carousel-item img{
+  width: 10%;
+}
+/* End testimonial */
+
+
+
+/* Start blog */
+.blog-footer img{
+  width: 15%;
+  height: 15%;
+}
+
+.card-title{
+  transition: all 1s;
+}
+
+.card-title:hover{
+  color: #0078ff;
+}
+
+/* End blog */
+
+
+/* Start Footer */
+#devFooter{
+  
+  background-image: url(../images/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.footer-cover{
+  background-color: #0078ff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .5;
+
+}
+
+.send{
+  border-radius: 20px;
+}
+
+.footer-content{
+
+ 
+}
+
+.footer-icon{
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 0 0 3px #0078ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .7s;
+}
+.footer-icon:hover{
+  background-color: #0078ff;
+  color: #fff;
+
+}
+
+.copyrigh{
+  position: absolute;
+  bottom: 20px;
+  left: 45%;
+}
+
+/* End Footer */
